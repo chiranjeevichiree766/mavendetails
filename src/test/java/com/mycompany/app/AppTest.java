@@ -7,7 +7,7 @@ public class AppTest {
     @Test
     void testAdd() {
         App app = new App();
-        int result = app.add(2, 3);
+        int result = app.add(2, 2);
         assertEquals(4, result); // Update the expected value to 4
     }
 }
